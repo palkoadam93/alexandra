@@ -19,106 +19,76 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <header
-      id="nav"
-      class="fixed top-0 inset-x-0 z-50 transition-all duration-300"
-      style="padding-top: env(safe-area-inset-top, 0px)"
-    >
-      <div
-        class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between"
-      >
+    <header id="nav" class="fixed top-0 inset-x-0 z-50 transition-all duration-300" style="padding-top: env(safe-area-inset-top, 0px)">
+      <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
         <a href="#top" class="font-serif text-xl text-cocoa">Alexandra</a>
-        <nav
-          class="hidden md:flex items-center gap-7 text-sm text-cocoa"
-          aria-label="Fő navigáció"
-        >
-          <a href="#problema" class="hover:opacity-60">Ismerős?</a
-          ><a href="#program" class="hover:opacity-60">A program</a
-          ><a href="#valtozas" class="hover:opacity-60">Változás</a
-          ><a href="#bemutatkozas" class="hover:opacity-60">Rólam</a
-          ><a href="#gyik" class="hover:opacity-60">GYIK</a>
-          <a
-            href="https://www.instagram.com/alexandra.socialworks/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Alexandra Instagram-profilja"
-            class="hover:opacity-60"
-            ><svg
+        <nav class="hidden md:flex items-center gap-7 text-sm text-cocoa" aria-label="Fő navigáció">
+          <a href="#problema" class="hover:opacity-60">Ismerős?</a>
+          <a href="#program" class="hover:opacity-60">A program</a>
+          <a href="#valtozas" class="hover:opacity-60">Változás</a>
+          <a href="#bemutatkozas" class="hover:opacity-60">Rólam</a>
+          <a href="#gyik" class="hover:opacity-60">GYIK</a>
+          <a href="https://www.instagram.com/alexandra.socialworks/" target="_blank" rel="noopener" aria-label="Alexandra Instagram-profilja" class="hover:opacity-60">
+            <svg
               width="22"
               height="22"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
               stroke-width="1.7"
-              aria-hidden="true"
-            >
+              aria-hidden="true">
               <rect x="3" y="3" width="18" height="18" rx="5" />
               <circle cx="12" cy="12" r="4" />
-              <circle cx="17.3" cy="6.7" r=".8" fill="currentColor" /></svg></a
-          ><a href="#jelentkezes" class="btn !py-2.5 !px-5">JELENTKEZEM</a>
+              <circle cx="17.3" cy="6.7" r=".8" fill="currentColor" /></svg></a>
+          <a href="#jelentkezes" class="btn !py-2.5 !px-5">JELENTKEZEM</a>
         </nav>
         <button
           id="mb"
           class="md:hidden p-2 text-cocoa"
           aria-label="Menü"
-          aria-expanded="false"
-        >
+          aria-expanded="false">
           <svg
             width="26"
             height="26"
             fill="none"
             stroke="currentColor"
-            stroke-width="1.8"
-          >
+            stroke-width="1.8">
             <path d="M3 8h20M3 18h20" />
           </svg>
         </button>
       </div>
-      <div
-        id="mm"
-        class="hidden md:hidden bg-cream border-t border-nude px-5 py-5 flex-col gap-4 text-cocoa"
-      >
-        <a href="#problema">Ismerős?</a><a href="#program">A program</a
-        ><a href="#valtozas">Változás</a><a href="#bemutatkozas">Rólam</a
-        ><a href="#gyik">GYIK</a
-        ><a
-          href="https://www.instagram.com/alexandra.socialworks/"
+      <div id="mm"
+        class="hidden md:hidden bg-cream border-t border-nude px-5 py-5 flex-col gap-4 text-cocoa">
+        <a href="#problema">Ismerős?</a><a href="#program">A program</a>
+        <a href="#valtozas">Változás</a><a href="#bemutatkozas">Rólam</a>
+        <a href="#gyik">GYIK</a>
+        <a href="https://www.instagram.com/alexandra.socialworks/"
           target="_blank"
           rel="noopener"
-          class="flex items-center gap-2"
-          ><svg
+          class="flex items-center gap-2">
+          <svg
             width="20"
             height="20"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="1.7"
-            aria-hidden="true"
-          >
+            aria-hidden="true">
             <rect x="3" y="3" width="18" height="18" rx="5" />
             <circle cx="12" cy="12" r="4" />
             <circle cx="17.3" cy="6.7" r=".8" fill="currentColor" />
-          </svg>
-          @alexandra.socialworks</a
-        ><a href="#jelentkezes" class="btn">JELENTKEZEM</a>
+          </svg>@alexandra.socialworks</a>
+          <a href="#jelentkezes" class="btn">JELENTKEZEM</a>
       </div>
     </header>
 
     <main id="top">
       <section class="pt-28 pb-16 md:pt-36 md:pb-24 bg-cream">
         <div
-          class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-10 items-center"
-        >
+          class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-10 items-center">
           <div class="rv">
-            <p class="eyebrow mb-5">
-              MENTORPROGRAM SZÉPSÉGIPARI VÁLLALKOZÓKNAK
-            </p>
-            <h1
-              class="font-serif text-4xl sm:text-5xl lg:text-6xl leading-[1.1] text-cocoa"
-            >
-              Ne csak a munkád legyen profi. Mutasd is meg úgy, ahogy
-              megérdemli!
-            </h1>
+            <p class="eyebrow mb-5">MENTORPROGRAM SZÉPSÉGIPARI VÁLLALKOZÓKNAK</p>
+            <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl leading-[1.1] text-cocoa">Ne csak a munkád legyen profi. Mutasd is meg úgy, ahogy megérdemli!</h1>
             <p class="mt-6 text-lg text-graphite/80">
               Egész nap a vendégeidért dolgozol. De ki foglalkozik közben a
               vállalkozásod online jelenlétével?
@@ -149,8 +119,7 @@
               alt="Alexandra krómvázas fotelben ül, tablettel a kezében"
               class="rounded-[0.75rem] w-full aspect-[4/5] object-cover object-[75%_40%]"
               width="900"
-              height="1125"
-            />
+              height="1125"/>
           </div>
         </div>
       </section>
@@ -158,45 +127,19 @@
       <section id="problema" class="py-20 md:py-28 bg-beige">
         <div class="max-w-6xl mx-auto px-5">
           <div class="max-w-2xl rv">
-            <h2 class="font-serif text-3xl md:text-5xl text-cocoa">
-              Ismerős valamelyik helyzet?
-            </h2>
-            <p class="mt-5 text-lg text-graphite/80">
-              Lehet, hogy szakmailag már pontosan tudod, mit csinálsz. A
-              közösségi médiában viszont sokszor még mindig bizonytalan vagy.
-            </p>
+            <h2 class="font-serif text-3xl md:text-5xl text-cocoa">Ismerős valamelyik helyzet?</h2>
+            <p class="mt-5 text-lg text-graphite/80">Lehet, hogy szakmailag már pontosan tudod, mit csinálsz. A közösségi médiában viszont sokszor még mindig bizonytalan vagy.</p>
           </div>
-          <div
-            id="probs"
-            class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5"
-          ></div>
-          <p
-            class="mt-12 max-w-3xl font-serif text-xl md:text-2xl text-cocoa rv"
-          >
-            A probléma nem feltétlenül az, hogy nem dolgozol eleget a social
-            médiádon. Lehet, hogy egyszerűen még senki nem mutatta meg, hogyan
-            csináld tudatosan, a saját vállalkozásodhoz igazítva.
-          </p>
+          <div id="probs" class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+          <p class="mt-12 max-w-3xl font-serif text-xl md:text-2xl text-cocoa rv">A probléma nem feltétlenül az, hogy nem dolgozol eleget a social médiádon. Lehet, hogy egyszerűen még senki nem mutatta meg, hogyan csináld tudatosan, a saját vállalkozásodhoz igazítva.</p>
         </div>
       </section>
 
       <section class="py-24 md:py-32 bg-cream">
         <div class="max-w-5xl mx-auto px-5 text-center">
-          <h2
-            class="font-serif text-4xl md:text-6xl leading-tight text-cocoa rv"
-          >
-            Nem kell influenszerré válnod ahhoz, hogy sikeresen kommunikálj.
-          </h2>
-          <p class="mt-8 text-lg text-graphite/80 max-w-2xl mx-auto rv">
-            Nem kell minden trendet követned. Nem kell naponta videót
-            készítened. És nem kell az egész szabadidődet a telefonod előtt
-            töltened.
-          </p>
-          <p class="mt-4 text-lg text-graphite/80 max-w-2xl mx-auto rv">
-            Amit viszont érdemes megtanulnod: hogyan mutasd meg a
-            szakértelmedet, hogyan építs bizalmat, és hogyan kommunikálj úgy,
-            hogy a leendő vendégeid megértsék, miért téged válasszanak.
-          </p>
+          <h2 class="font-serif text-4xl md:text-6xl leading-tight text-cocoa rv">Nem kell influenszerré válnod ahhoz, hogy sikeresen kommunikálj.</h2>
+          <p class="mt-8 text-lg text-graphite/80 max-w-2xl mx-auto rv">Nem kell minden trendet követned. Nem kell naponta videót készítened. És nem kell az egész szabadidődet a telefonod előtt töltened.</p>
+          <p class="mt-4 text-lg text-graphite/80 max-w-2xl mx-auto rv">Amit viszont érdemes megtanulnod: hogyan mutasd meg a szakértelmedet, hogyan építs bizalmat, és hogyan kommunikálj úgy, hogy a leendő vendégeid megértsék, miért téged válasszanak.</p>
           <blockquote
             class="mt-12 rounded-[0.75rem] bg-cocoa text-cream px-6 py-12 md:px-16 font-serif text-2xl md:text-3xl rv"
           >
@@ -499,59 +442,27 @@
           <div>
             <h3>4. Kik férhetnek hozzá az adataidhoz?</h3>
             <ul>
-              <li>
-                <strong>Tárhelyszolgáltató:</strong> Netlify, Inc. (az oldal
-                üzemeltetése, technikai naplók).
-              </li>
-              <li>
-                <strong>E-mail-szolgáltató:</strong> Google (Gmail), ha
-                e-mailben írsz.
-              </li>
-              <li>
-                <strong>Instagram:</strong> Meta Platforms, ha Instagramon
-                keresztül írsz, vagy az oldalról átkattintasz a profilra. Ekkor
-                a Meta saját adatkezelési szabályai érvényesek.
-              </li>
-              <li>
-                <strong>Google Fonts és Tailwind CDN</strong>: lásd a 3. pontot.
-              </li>
+              <li><strong>Tárhelyszolgáltató:</strong> Netlify, Inc. (az oldal üzemeltetése, technikai naplók).</li>
+              <li><strong>E-mail-szolgáltató:</strong> Google (Gmail), ha e-mailben írsz.</li>
+              <li><strong>Instagram:</strong> Meta Platforms, ha Instagramon keresztül írsz, vagy az oldalról átkattintasz a profilra. Ekkor a Meta saját adatkezelési szabályai érvényesek.</li>
+              <li><strong>Google Fonts és Tailwind CDN</strong>: lásd a 3. pontot.</li>
             </ul>
-            <p>
-              Az adataidat nem adjuk el, és marketing célra nem adjuk tovább. Az
-              említett szolgáltatók az Európai Gazdasági Térségen kívül (például
-              az Egyesült Államokban) is kezelhetnek adatokat, ennek feltételeit
-              saját tájékoztatóik és szerződéses garanciáik tartalmazzák. Az
-              adatkezelő Ukrajnában működik, ezért a megkeresésed adatai
-              Ukrajnába is eljuthatnak.
-            </p>
+            <p>Az adataidat nem adjuk el, és marketing célra nem adjuk tovább. Az említett szolgáltatók az Európai Gazdasági Térségen kívül (például az Egyesült Államokban) is kezelhetnek adatokat, ennek feltételeit saját tájékoztatóik és szerződéses garanciáik tartalmazzák. Az adatkezelő Ukrajnában működik, ezért a megkeresésed adatai Ukrajnába is eljuthatnak.</p>
           </div>
           <div>
             <h3>5. Milyen jogaid vannak?</h3>
             <ul>
-              <li>
-                tájékoztatást kérhetsz arról, milyen adatokat kezelünk rólad, és
-                másolatot kérhetsz;
-              </li>
+              <li>tájékoztatást kérhetsz arról, milyen adatokat kezelünk rólad, és másolatot kérhetsz;</li>
               <li>kérheted az adataid helyesbítését vagy törlését;</li>
               <li>kérheted az adatkezelés korlátozását;</li>
               <li>tiltakozhatsz a jogos érdeken alapuló adatkezelés ellen;</li>
               <li>kérheted az általad megadott adatok hordozását.</li>
             </ul>
-            <p>
-              Jogaid gyakorlásához írj az alexandrasocialworks@gmail.com címre.
-              Ha úgy látod, hogy az adataid kezelése sérti a jogaidat, panaszt
-              tehetsz a lakóhelyed szerinti adatvédelmi felügyeleti hatóságnál.
-              Magyarországon ez a Nemzeti Adatvédelmi és Információszabadság
-              Hatóság (NAIH, naih.hu).
-            </p>
+            <p>Jogaid gyakorlásához írj az alexandrasocialworks@gmail.com címre. Ha úgy látod, hogy az adataid kezelése sérti a jogaidat, panaszt tehetsz a lakóhelyed szerinti adatvédelmi felügyeleti hatóságnál. Magyarországon ez a Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH, naih.hu).</p>
           </div>
           <div>
             <h3>6. Változások</h3>
-            <p>
-              Ezt a tájékoztatót módosíthatjuk, például ha az oldal új funkciót
-              kap (például jelentkezési űrlapot). A mindenkori érvényes változat
-              ezen az oldalon olvasható.
-            </p>
+            <p>Ezt a tájékoztatót módosíthatjuk, például ha az oldal új funkciót kap (például jelentkezési űrlapot). A mindenkori érvényes változat ezen az oldalon olvasható.</p>
           </div>
         </div>
       </div>
@@ -565,32 +476,28 @@
         </div>
         <div class="space-y-3">
           <p>
-            <a
-              href="https://www.instagram.com/alexandra.socialworks/"
+            <a href="https://www.instagram.com/alexandra.socialworks/"
               target="_blank"
               rel="noopener"
-              class="inline-flex items-center gap-2 hover:text-cream py-1"
-              ><svg
+              class="inline-flex items-center gap-2 hover:text-cream py-1">
+              <svg
                 width="20"
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
                 stroke-width="1.7"
-                aria-hidden="true"
-              >
+                aria-hidden="true">
                 <rect x="3" y="3" width="18" height="18" rx="5" />
                 <circle cx="12" cy="12" r="4" />
                 <circle cx="17.3" cy="6.7" r=".8" fill="currentColor" />
               </svg>
-              @alexandra.socialworks</a
-            >
+              @alexandra.socialworks
+            </a>
           </p>
           <p>
-            <a
-              href="mailto:alexandrasocialworks@gmail.com"
-              class="inline-flex items-center gap-2 hover:text-cream py-1"
-              ><svg
+            <a href="mailto:alexandrasocialworks@gmail.com" class="inline-flex items-center gap-2 hover:text-cream py-1">
+              <svg
                 width="20"
                 height="20"
                 viewBox="0 0 24 24"
@@ -598,25 +505,18 @@
                 stroke="currentColor"
                 stroke-width="1.7"
                 stroke-linejoin="round"
-                aria-hidden="true"
-              >
+                aria-hidden="true">
                 <rect x="3" y="5" width="18" height="14" rx="2" />
                 <path d="M3 7l9 6 9-6" />
               </svg>
-              alexandrasocialworks@gmail.com</a
-            >
+              alexandrasocialworks@gmail.com
+            </a>
           </p>
           <p>
-            <a
-              href="#adatkezeles"
-              class="underline hover:text-cream py-1 inline-block"
-              >Adatkezelési tájékoztató</a
-            >
+            <a href="#adatkezeles" class="underline hover:text-cream py-1 inline-block">Adatkezelési tájékoztató</a>
           </p>
         </div>
-        <p class="md:text-right">
-          © <span id="yr"></span> Alexandra. Minden jog fenntartva.
-        </p>
+        <p class="md:text-right">© <span id="yr"></span> Alexandra. Minden jog fenntartva.</p>
       </div>
     </footer>
 
