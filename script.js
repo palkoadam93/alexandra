@@ -1,0 +1,27 @@
+tailwind.config={
+    theme:{
+        extend:{
+            colors:{
+                cream:'#F8F5F0',
+                beige:'#E9DFD1',
+                nude:'#A3A68B',
+                olive:'#A3A68B',
+                khaki:'#72785A',
+                cocoa:'#38291F',
+                graphite:'#38291F'
+            },
+            fontFamily:{
+                serif:[
+                    '"Cormorant Garamond"',
+                    'Georgia',
+                    'serif'
+                ],
+                sans:[
+                    'Montserrat',
+                    'system-ui',
+                    'sans-serif'
+                ]
+            }
+        }
+    }
+}
